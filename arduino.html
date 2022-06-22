@@ -1,0 +1,345 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Liz Yau - HCI portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favi.jpg">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/computer.css">
+</head>
+
+<body>
+    <header>
+        <!-- header-top-area-start -->
+        <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo/logo.png" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9">
+                        <div class="main-menu text-right">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li class="active"><a href="index.html">home </a>
+                                    </li>
+
+                                    <li><a href="">Topics</a>
+                                        <ul class="sub-menu text-left">
+                                            <li><a href="playful.html">Playful interactions</a></li>
+                                            <li><a href="XR.html">XR</a></li>
+                                            <li><a href="wearables.html">Wearables</a></li>
+                                            <li><a href="">Artificial Creatures</a></li>
+                                            <!-- <li><a href="portfolio-details.html">Artificial Creatures</a></li> -->
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Workshops </a>
+                                        <ul class="sub-menu text-left">
+                                            <li><a href="computer-vision.html">Computer Vision</a></li>
+                                            <li><a href="virtualenv.html">Virtual Environments</a></li>
+                                            <li><a href="arduino.html">Arduino</a></li>
+                                            <li><a href="creature.html">Artificial Creatures</a></li>
+                                        </ul>
+                                    </li>
+									<li><a href="excursion.html">Excursion</a></li>
+									<li><a href="labweeks.html">Lab weeks</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="mobile-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header-top-area-end -->
+    </header>
+
+    <div class="project-details-area pt-30 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
+                    <div class="projct-details-wrapper">
+
+                        <div class="project-details-text">
+                            <h4>Arduino </h4>
+                            A demostration video will be included with each exercise. It might take a few seconds to load everything :)<br>
+                            <div class="project-img">
+                                <!-- <img src="img/portfolio/portfolio-2/computerbanner.jpeg" alt="" /> -->
+                            </div> <br>
+                            <h4><b>Ex.3: Blink multiple LEDS</b></h4>
+                            <b>b. Green and yellow blink at the same time</b>
+                            <p>In this exercise, we get the taste of how to set up two LED lights. Afterwards, i tried
+                                to make both green and yellow lights
+                                blink at the same time. The code for this exercise is very straight forward; where you
+                                put both the voltage level of green and yellow
+                                lights the same. They should be HIGH or LOW at the same time.</p>
+
+
+                            <main class='main'>
+                                <section class='left section'>
+                                    <img src="img/portfolio/arduino/3b.png" width="85%">
+                                </section>
+
+                                <section class='right section'>
+                                    <iframe width="580" height="315" src="https://www.youtube.com/embed/L3vdBLZTk8k"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </section>
+                            </main>
+                            <br><br>
+
+                            <h4><b>Ex.4: Fade LED - Analog output </b></h4>
+                            <b>c. Extend the code so that one LED slowly fades in and the other fades out at the same
+                                time</b>
+                            <p> Not just lights blinking at the same time, we also tried how to do one fade in and one
+                                fade out. I struggled with the code for a while,
+                                but i realized it can be done just simply by one LED using brightness (255) to minus the
+                                sensor value.
+                            </p>
+                            <main class='main'>
+                                <section class='left section'>
+                                    <img src="img/portfolio/arduino/4c.JPG" width="85%">
+                                </section>
+
+                                <section class='right section'>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VpLG9AXZEaU"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </section>
+                            </main>
+                            <br><br>
+
+                            <h4><b>Ex.6: Controlling a LED with a potmeter </b></h4>
+                            <b>c. Change the code so that one LED fades in while the other fades out and vice versa.</b>
+                            <p> This exercise is similar to the previous one, but the difference is that we added a
+                                potmeter as the medium to change the value.
+                                With potentiometer, it gives a range from 0 to 1023, meanwhile brightness is between 0
+                                to 255. Therefore, we also learned how to use
+                                map() function so that the sensor value can be scaled correspondingly.
+
+                            </p>
+                            <main class='main'>
+                                <section class='left section'>
+                                    <img src="img/portfolio/arduino/6c.JPG" width="85%">
+                                </section>
+
+                                <section class='right section'>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/W2bDGyb37Yg"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </section>
+                            </main>
+                            <br><br>
+
+                            <h4><b>Ex.7: LED matrix </b></h4>
+                            <b>a. smiley face & frowney face alternate every second</b>
+                            <!-- <P> A mind blowing exercise :) </P> -->
+
+                            <main class='main'>
+                                <section class='left section'>
+                                    <img src="img/portfolio/arduino/7A.JPG" width="85%">
+                                </section>
+
+                                <section class='right section'>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NKzyYZWjlMQ"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </section>
+                            </main>
+                            <br><br>
+
+                            <h4><b>Ex.8: Control the LED with light </b></h4>
+                            <p>Beside potmeter, we tried to use LDR sensor in this exercise to control the light. The
+                                value from LDR is between the range of 0 to 1023.
+                                But in reality, the range we got is much smaller. Therefore, we need to check the sensor
+                                value to extract the range that the sensor
+                                has under the lighting condition we were at. For me it was between 582 to 875, thus i
+                                set the range of 600 to 800 in my code. </p>
+
+                            <main class='main'>
+                                <section class='left section'>
+                                    <img src="img/portfolio/arduino/Screenshot (2397).png" width="99%">
+                                </section>
+
+                                <section class='right section'>
+                                    <img src="img/portfolio/arduino/8.JPG" width="99%">
+                                </section>
+                            </main>
+                            <br><br>
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CjIfcKK0hgk"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <br><br>
+
+                            <h4><b>Ex.9: Sound </b></h4>
+                            <b>c. Make a siren</b><br>
+                            <p> In the beginning, i didn't know the frequency range of a siren sound, or how big or
+                                small the range should be.
+                                Therefore I tried to experiment with different range. In the first video, you can hear
+                                that the frequency range is too
+                                big, whereas in practice, it should sound shorter that would give a more emergent
+                                feeling. The next video is my improved version. </p>
+
+
+                            <main class='main'>
+                                <section class='left section'>
+                                    <iframe width="480" height="315" src="https://www.youtube.com/embed/U8IiobOTC8s"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </section>
+
+                                <section class='right section'>
+                                    <iframe width="480" height="315" src="https://www.youtube.com/embed/-dVwbMW6xfA"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </section>
+                            </main>
+                            <br><br>
+
+                            <h4><b>Ex.11: Distance </b></h4>
+                            <b>c. yellow LED start blinking when something is within 50 cm from the sensor</b>
+                            <p>In this exercise, we used an Ultrasonic Proximity Sensor to measure distance. Although it
+                                is to measure distance, it is not like
+                                using a camera to capture or measure the distance. Instead, it transmits a pulse of
+                                ultrasonic sound and then listen for the echo. In this situation,
+                                Arduino acts as the one to send a signal to the sensor to initate the action and read
+                                the measured duration from the sensor.
+                                In the following video, it shows that the yellow LED will start blinking when something
+                                is within 50 cm from the sensor.
+                            </p>
+
+                            <main class='main'>
+                                <section class='left section'>
+                                    <img src="img/portfolio/arduino/11.JPG" width="99%">
+                                </section>
+
+                                <section class='right section'>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/X7Yk7uL8w2k"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </section>
+                            </main>
+                            <br><br>
+
+                            <h4><b>Ex.12: Arduino and Processing </b></h4>
+                            <b>d. size of the circle is determined by input of the sensor</b>
+                            <p>Arduino can actually work together with other software by creating a serial connection.
+                                In this exercise, we tried to connect
+                                Arduino and processing together by using Arduino as an input device for our computer. By
+                                doing so, we had to first connect them to
+                                our own serial port. At the same time, I reused the set up from exercise 8 with LDR
+                                sensor and drew a circle on processing. In the video,
+                                you can see that the size of the circle will be changed based on the sensor value. </p>
+
+
+                            <img src="img/portfolio/arduino/12.png" width="99%">
+                            <br><br>
+
+                            <iframe width="480" height="315" src="https://www.youtube.com/embed/Tl3-R4-8M_w"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <br><br>
+
+                            <h4><b>Ex.13: Arduino and Processing </b></h4>
+                            <b>b. Processing to Arduino</b>
+                            <p>The other way round, Processing can also send data to Arduino. In this experiment, i used
+                                key pressed as an input, where if i pressed
+                                "a" or "d", Processing itself will have shapes appear and rotate every time you pressed
+                                the key. In addition,
+                                each keypress will send a different signal to Arduino to create a sound. </p>
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TVKQfOAdch4"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <br><br>
+
+                            <h4><b>Ex.14: Arduino and Processing </b></h4>
+                            <b>b. LED turn off while the button is pressed</b><br>
+                            <p>Button is being used in this exercise as a sensor. The LED will turn off while the button
+                                is pressed.</p>
+                            <main class='main'>
+                                <section class='left section'>
+                                    <img src="img/portfolio/arduino/14.JPG" width="99%">
+                                </section>
+
+                                <section class='right section'>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EvzXiwQNUlQ"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </section>
+                            </main>
+                            <br><br>
+
+                            <h4><b>Ex.15: Servomotor </b></h4>
+                            <b>b. random servo move</b><br>
+                            <p>In this exercise, we used servomotor, which is a type of motor that can turn to a precise
+                                position. After learning how it works with
+                                Arduino, I tried to make a random move for the motor. I wanted to make the rhythm like
+                                the beat that cheering team would make but apparently, it doesn't go
+                                exactly as it should be :p But after all it is still very interesting to get to know
+                                about this motor. </p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CcmHaPBl12I"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <br><br>
+
+                            <h4><b>Ex.16: Capacitive Touch </b></h4>
+                            <b>d. with my house key!</b><br>
+                            <p>As you can see, we experimented with different sensors along the workshop. In this exervise, we get to actually make our own sensor. 
+                                By doing so, we have to first choose an input that are conductive, such as aluminium foil, coins, graphite materials, or even our finger!
+                                Eventually, i used my own house key as the medium. When the wire touches the key, the light will turn on.   
+                            </p>
+                            <main class='main'>
+                                <section class='left section'>
+                                    <img src="img/portfolio/arduino/16.JPG" width="85%">
+                                </section>
+
+                                <section class='right section'>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nUflGl6wlWg"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </section>
+                            </main>
+                            <br><br>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
