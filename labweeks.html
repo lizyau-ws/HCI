@@ -73,6 +73,253 @@
 		<!-- header-top-area-end -->
 	</header>
 
+	<div class="project-details-area pt-30 pb-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
+					<div class="projct-details-wrapper">
+
+						<div class="project-details-text">
+							<h4>Lab weeks</h4>
+						</div>
+						<div class="project-img">
+							<img src="img/labweek/groupphoto.jpeg" width="90%" alt="" />
+						</div>
+
+						<h3><b>I. Process</b></h3>
+						<b>
+							<h4>Day 1</h4>
+						</b>
+						<p>In our first day of lab week, we were being assigned in a group based on the topic (playful
+							interaction) we chose. In our group we have 2 UXD & 3 CMD students. Since most
+							of us didn't know each other, we spent the morning to get to know each other better and came
+							up with our group name together. Based on our background and interests,
+							we decided to name our group WingPlay.
+						</p>
+						<main class='main'>
+							<section class='left section'>
+								<img src="img/labweek/day1/know.jpeg" width="60%">
+							</section>
+
+							<section class='right section'>
+								<img src="img/labweek/day1/wingplay.jpeg" width="80%">
+							</section>
+						</main><br>
+						<p>As we want to keep options for what concept we should create for the expo open, we decided to
+							first spend some time on our own to different cases and possible technology that we can use,
+							as well as inspirations from others. I created a miro board for the group to share
+							informations that we found.
+						</p>
+						<img src="img/labweek/day1/HCI lab weeks.jpg" width="80%"><br>
+						<p>Our team name WingPlay gave us some inspirations at some point as well, one of us popped up
+							with the
+							ideas of clouds and nature. From there, we came up with the thoughts of including different
+							sensations in an installation, e.g. what are gonna happen when users interact with the cloud
+							or some other object? What are the possible sensations that we can include? What can be the
+							response? <br>
+							We divided our tasks, where three of our groupmates decided to dive into understanding
+							lights & learn how to connect LED stripes with wires together. Yulia & I tried to learn
+							about the interaction with the temperature sensor from Arduino. Therefore, we chose NTC
+							sensor to measure temperature. However, NTC sensor is actually a thermistor which is a type
+							of resistor that its resistance
+							is dependent on temperature. In other words, what we read on serial monitor isn't the
+							temperature but the resistance value. Because of that,
+							I did some research to understand the correlation between resistance and temperature. With
+							the below graph, we can see that
+							when the temperature increases, resistance decreases. In converse, when temperature
+							decreases, resistance increases.<br>
+							<img src="img/labweek/day1/log-graph.png" width="80%"><br>
+							We first tried to create the relation with temperature and one LED light, i.e. brightness of
+							LED changes based on the temperature.
+							Then we created different states with two LED lights, i.e. high temperature > green light on
+							| red light off; temperature drops to
+							a certain degree > green light off | red light on. <br>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/I2e5fZYOx84"
+								title="YouTube video player" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe><br>
+							Although we managed to make it work, I also realized that after we touched the sensor, it
+							takes a fairly long time for the temperature to
+							decrease again. It is because the heat that we have given to the sensor when we touched it
+							will actually stay on the surface.
+							Thinking about it more, i think with measure temperature based on the user's
+							input would give a lot of risk as all of us has different body temperature and
+							the temperature and weather condition can also affect our body temperature at that moment.
+							Therefore, it is difficult to set a "standard" or conditions. It is interesting to learn
+							more about NTC sensor, but I personally think it is not
+							pratical for our case. It seems like measuring distance or capacitive sensor would make more
+							sense. <br><br>
+							Afterwards, I tried to catch up what the other part of the group was doing as well. As
+							mentioned, 3 of them were learning how to connect LED stripes with wires together.<br>
+							<main class='main'>
+								<section class='left section'>
+									<img src="img/labweek/day1/light1.jpg" width="95%">
+								</section>
+
+								<section class='right section'>
+									<img src="img/labweek/day1/light2.jpg" width="95%">
+								</section>
+
+								<section class='right section'>
+									<img src="img/labweek/day1/light3.jpg" width="95%">
+								</section>
+							</main><br>
+							<p>From I understood, we can either use a LED light strip connecting clip or by soldering to
+								connect wire and the strip together. With the materials we had,
+								we went for soldering and it works! This is a nice wrap up of our first day :) </p>
+							<img src="img/labweek/day1/soldering.jpeg" width="80%"> <br><br>
+
+							<b>
+								<h4>Day 2</h4>
+							</b>
+							<p>In day two, our group continues with what we have on day one. We found that there is a
+								library called
+								<a href="https://github.com/FastLED/FastLED">FastLED Animation Library</a> for arduino,
+								where includes a wide variiety of controlling the light strip in different settings and
+								effects. From there, we dived deeper into LED light strips. </p>
+							<main class='main'>
+								<section class='left section'>
+									<iframe width="480" height="315" src="https://www.youtube.com/embed/7RgVjE1E5xc"
+										title="YouTube video player" frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe>
+								</section>
+
+								<section class='right section'>
+									<iframe width="480" height="315" src="https://www.youtube.com/embed/wOPES9JH3wE"
+										title="YouTube video player" frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe>
+								</section>
+							</main><br>
+							<p>Yulia and Hanna also went outside to check out materials that we might need. They bought
+								some cottons to miminc the cloud and also managed to match it with the LED lights!</p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/HZLTPxLZx30"
+								title="YouTube video player" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe><br>
+
+							<p>At some point, I found it hard that everyone focus on the same type of technology.
+								Therefore, we spit again to do more different things which Marissa focused on
+								importing sound in processing with capacitive touch. Meanwhile I started to experiement
+								more on p5js. <br>
+								Since what we did during workshop was mostly about computer vision and capture body
+								position by using PoseNet, I thought it might
+								be nice to explore other direction such as sound. Therefore, I
+								started to understand more all the way from the basic function AudioIn(). Below are
+								videos with voice over that show my whole process of what I understand, try out and
+								created eventually. Along the way, what I have learned isn't only with getting audio
+								from the input of our computer's audio,
+								but also how we can visualize the audio and even how can we make the movement smoothly
+								by using lerp().
+							</p>
+							<main class='main'>
+								<section class='left section'>
+									<iframe width="480" height="315" src="https://www.youtube.com/embed/HnraNGrRnB8"
+										title="YouTube video player" frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe>
+								</section>
+
+								<section class='right section'>
+									<iframe width="480" height="315" src="https://www.youtube.com/embed/z31Eo5owTyk"
+										title="YouTube video player" frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe>
+								</section>
+							</main><br>
+
+							<main class='main'>
+								<section class='left section'>
+									<iframe width="480" height="315" src="https://www.youtube.com/embed/oE-ml3qxzBI"
+										title="YouTube video player" frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe>
+								</section>
+
+								<section class='right section'>
+									<iframe width="480" height="315" src="https://www.youtube.com/embed/9jFmh6jTfZ8"
+										title="YouTube video player" frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe>
+
+								</section>
+							</main><br>
+
+							<p>To bring it to the next level, I thought to convert the solid circle that I was
+								experimenting to multiple circles with outlines only and the gap will be changed based
+								on the mic level. After I managed to make it work, I made the circle into half circle,
+								so that the visual changes will be even more obvious:</p>
+							<main class='main'>
+								<section class='left section'>
+									<iframe width="480" height="315" src="https://www.youtube.com/embed/tkZ7UlM09-o"
+										title="YouTube video player" frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe>
+									<p></p><br>
+								</section>
+
+								<section class='right section'>
+									<iframe width="480" height="315" src="https://www.youtube.com/embed/WoO_lYxv5OI"
+										title="YouTube video player" frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe><br>
+									<p>↑ sounds on to see the effect</p>
+								</section>
+							</main><br>
+							<b>
+								<h4>Day 3</h4>
+							</b>
+							<p>In day 3, we worked on capacitive sensors with sound and visual, LED strips and more with
+								p5js! Me and Marissa actually spent quite a lot of time figuring out how to implement 2
+								capacitive sensors in arduino and connect it with processing. What we learned in the
+								workshop was only with one sensor, which is pretty straightforward that there will only
+								be one value to send to processing. But when there are two of the same sensors, how can
+								we actually differentiate which value belongs to which sensor? Therefore, we tried to
+								change the sensor output name as "capA/B" + value. By doing so, we can clearly know that
+								the value refers to the capacitive sensor A or B. It might sound very easy here, but we
+								were struggled a lot by even how to change the name of sensor output because what we
+								need to consider is not only about the "text" or value but rather to convert the integer
+								to string. After the naming issue in arduino was solved, we had the next problem which
+								is how can we ask processing to identify then? We asked Daniel, the assistant during the
+								lab week for advice and he guided us on how to first ask Processing to differentiate
+								which sensor has the interaction; then read the value from that sensor and act upon the
+								sensor value. The solution of this is to create an array and use split() function to
+								break the string into pieces, but also to declare the values as float. To be honest,
+								till now I’m still not sure why we have to change it from int to float for that, but we
+								only figured out when we tried different possibilities to make the code work.
+								#storyofprogramming <br>
+
+								With this whole process, I have come to a point to realize that my groupmates are very
+								quick to understand Arduino and coding itself. I can still manage to understand or help
+								to some extent, but I feel like they are relatively more capable than me with Arduino. I
+								raised my concern to the group and we think it will be the best if i can focus on p5js,
+								processing or anything that is related to visuals. This will make the group work more
+								efficiently and all-rounded too. Therefore, after me and marissa solved the puzzle of
+								setting up multiple capacitive sensors and connected them to processing, I moved on to
+								p5js and decided to explore some other possibilities that are related to sound. This
+								leaded me to my next experiment - frequency spectrum.
+
+
+							</p>
+
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 
 	<!-- JS here -->
